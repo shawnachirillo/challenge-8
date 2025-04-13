@@ -1,0 +1,36 @@
+# Challenge 8: TypeScript Vehicle CLI 
+
+This is a Node.js CLI (Command Line Interface) application written in TypeScript that allows users to create and interact with various vehicle types — including Cars, Trucks, and Motorbikes. Users can simulate actions like accelerating, stopping, printing details, towing, and even doing a wheelie (yes, really 😎).
+
+---
+
+##  Features
+
+- Interactive command line prompts using **Inquirer**
+- Object-oriented design using **TypeScript classes**
+- Type-safe structure for all vehicle types
+- Custom logic for:
+  - Towing vehicles (Trucks only)
+  - Performing wheelies (Motorbikes only)
+  - Dynamically generating and managing vehicle data
+- Uses **CommonJS** setup with a clean build and no ESM issues
+
+---
+
+## Technologies Used
+
+- TypeScript
+- Node.js
+- Inquirer
+- Mocha (test-ready)
+- CommonJS module system
+- OOP principles (Inheritance, Interfaces, Polymorphism)
+
+---
+
+##  How to Run
+
+### 1. Clone the repo:
+```bash
+git clone https://github.com/shawnachirillo/challenge-8.git
+cd challenge-8
